@@ -1,6 +1,10 @@
+:root {
+  --primary-color: #5851ff;
+}
+
 my-app {
   header {
-    background: #5851ff;
+    background: var(--primary-color);
     color: white;
     height: 56px;
     display: flex;
